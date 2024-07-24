@@ -50,4 +50,3 @@ while(roundcount < 6):
         
 print("lose :(")
     
-
