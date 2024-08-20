@@ -42,7 +42,7 @@ ansList = []
 for word in fileinput.input(files="Wordleanswers.txt"):
     ansList.append(word);
 tempAnsList = []
-for i in range(1):
+for i in range(50):
     tempAnsList.append(ansList[random.randint(0, len(ansList))]);
 wordList = []
 for word in fileinput.input(files="Wordlewords.txt"):
